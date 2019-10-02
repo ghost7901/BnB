@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="code\common.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\edit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\factory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\game.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\gameframe.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\gui.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\item.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\loading.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\mainmenu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\map.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\role.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\sound.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\winmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="code\ability.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\edit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\factory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\game.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\gameframe.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\gui.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\item.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\loading.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\mainmenu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\map.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\role.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\sound.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\tinyxml.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BnB.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

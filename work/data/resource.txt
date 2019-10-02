@@ -1,0 +1,1092 @@
+Texture texMainMenu
+{
+  filename=data\pic\MainMenu.png
+}
+
+Sprite sprMainMenu
+{
+  texture=texMainMenu
+  rect=0,0,800,600
+}
+
+Texture texMain
+{
+  filename=data\pic\Main.png
+}
+
+Sprite sprBg
+{
+  texture=texMain
+  rect=0,0,800,600
+}
+
+Sprite sprShadowRole
+{
+  texture=texMain
+  rect=480,41,32,15
+  color=80FFFFFF
+  hotspot=-4,16  
+}
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; SharedRes
+Sprite sprShadowGift
+{
+  texture=texMain
+  rect=433,56,36,9
+  color=80FFFFFF
+}
+
+Sprite sprShadowPopo
+{
+  texture=texMain
+  rect=465,41,105,16
+  color=80FFFFFF
+}
+
+Sprite sprCursor
+{
+  texture=texMain
+  rect=516,57,32,32
+}
+
+Sprite sprExplosion
+{
+  texture=texMain
+  rect=20,344,560,200
+}
+
+Animation aniBigPopo
+{
+  texture=texMain
+  rect=0,600,72,72
+  frames=4
+  fps=6.0
+  mode=FORWARD,NOLOOP
+  hotspot=16,72
+}
+
+Animation aniBigPopoBomb
+{
+  texture=texMain
+  rect=288,600,72,72
+  frames=5
+  fps=6.0
+  mode=FORWARD,NOLOOP
+  hotspot=16,72
+}
+
+Animation aniStart
+{
+  texture=texMain
+  rect=800,0,68,68
+  frames=3
+}
+
+Animation aniWin
+{
+  texture=texMain
+  rect=800,68,68,70
+  frames=3
+}
+
+Animation aniDraw
+{
+  texture=texMain
+  rect=800,138,68,68
+  frames=3
+}
+
+Animation aniPlayer
+{
+  texture=texMain
+  rect=800,206,110,25
+  frames=2
+}
+
+Animation aniNumber
+{
+  texture=texMain
+  rect=180,86,12,10
+  frames=10
+}
+
+Sprite sprKick
+{
+  texture=texMain
+  rect=548,57,12,14
+}
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; MapType1
+Texture texTownGround
+{
+  filename=data\pic\TownGround.png
+}
+
+Animation aniTownGround
+{
+  texture=texTownGround
+  rect=0,0,40,40
+  frames=7
+}
+
+Sprite sprYellowHouse
+{
+  texture=texMain
+  rect=20,41,40,57
+  hotspot=0,56
+}
+
+Sprite sprRedHouse
+{
+  texture=texMain
+  rect=60,41,40,57
+  hotspot=0,56
+}
+
+Sprite sprBlueHouse
+{
+  texture=texMain
+  rect=100,41,40,57
+  hotspot=0,57
+}
+
+Sprite sprBush
+{
+  texture=texMain
+  rect=140,41,40,57
+  hotspot=0,56
+}
+
+Sprite sprShadowBush
+{
+  texture=texMain
+  rect=432,41,48,51
+  color=80FFFFFF
+  hotspot=6,44
+}
+
+Sprite sprShadowBlock
+{
+  texture=texMain
+  rect=574,57,45,45
+  color=80FFFFFF
+  hotspot=5,39
+}
+
+Sprite sprTree
+{
+  texture=texMain
+  rect=579,147,40,67
+  hotspot=0,69
+}
+
+Sprite sprBox
+{
+  texture=texMain
+  rect=524,98,40,44
+  hotspot=0,43
+}
+
+Sprite sprRedBlock
+{
+  texture=texMain
+  rect=488,143,40,44
+  hotspot=0,43
+}
+
+Sprite sprYellowBlock
+{
+  texture=texMain
+  rect=528,143,40,44
+  hotspot=0,43
+}
+
+Sprite sprWindmill
+{
+  texture=texMain
+  rect=800,231,120,62
+  hotspot=0,32
+}
+
+Animation aniWindmill
+{
+  texture=texMain
+  rect=648,600,120,118
+  frames=2
+  fps=3
+  mode=PINGPONG,LOOP
+  hotspot=0,150
+}
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; MapType2
+Texture texSandGround
+{
+  filename=data\pic\SandGround.png
+}
+
+Animation aniSandGround
+{
+  texture=texSandGround
+  rect=0,0,40,40
+  frames=2
+}
+
+Sprite sprSandBlockBuff
+{
+  texture=texMain
+  rect=972,278,40,44
+  hotspot=0,43
+}
+
+Sprite sprSandBlockYellow
+{
+  texture=texMain
+  rect=932,278,40,44
+  hotspot=0,43
+}
+
+Sprite sprSandBox
+{
+  texture=texMain
+  rect=960,231,40,45
+  hotspot=0,44
+}
+
+Sprite sprSandCactiTea
+{
+  texture=texMain
+  rect=476,254,40,59
+  hotspot=0,71
+}
+
+Sprite sprSandCactiGreenBold
+{
+  texture=texMain
+  rect=516,250,40,59
+  hotspot=0,71
+}
+
+Sprite sprSandCactiGreen
+{
+  texture=texMain
+  rect=556,250,40,59
+  hotspot=0,71
+}
+
+Sprite sprSandHouseBlue
+{
+  texture=texMain
+  rect=436,251,40,63
+  hotspot=0,62
+}
+
+Sprite sprSandHouseGreen
+{
+  texture=texMain
+  rect=396,251,40,63
+  hotspot=0,62
+}
+
+Sprite sprSandHouseTea
+{
+  texture=texMain
+  rect=516,187,40,63
+  hotspot=0,62
+}
+
+Sprite sprSandOasis
+{
+  texture=texMain
+  rect=800,506,160,72
+  hotspot=0,146
+}
+
+Animation aniSandOasis
+{
+  texture=texMain
+  rect=126,672,160,71
+  frames=3
+  fps=3
+  mode=PINGPONG,LOOP
+  hotspot=0,74
+}
+
+Sprite sprSandShopBlue
+{
+  texture=texMain
+  rect=476,187,40,67
+  hotspot=0,66
+}
+
+Sprite sprSandShopRed
+{
+  texture=texMain
+  rect=436,184,40,67
+  hotspot=0,66
+}
+
+Sprite sprSandShopYellow
+{
+  texture=texMain
+  rect=396,184,40,67
+  hotspot=0,66
+}
+
+Sprite sprSandStone
+{
+  texture=texMain
+  rect=920,231,40,47
+  hotspot=0,46
+}
+
+Animation aniSandTentBlue
+{
+  texture=texMain
+  rect=800,435,44,71
+  frames=3
+  fps=6
+  mode=FORWARD,NOLOOP
+  hotspot=2,66
+}
+
+Animation aniSandTentRed
+{
+  texture=texMain
+  rect=800,364,44,71
+  frames=3
+  fps=6
+  mode=FORWARD,NOLOOP
+  hotspot=2,66
+}
+
+Animation aniSandTentYellow
+{
+  texture=texMain
+  rect=800,293,44,71
+  frames=3
+  fps=6
+  mode=FORWARD,NOLOOP
+  hotspot=2,66
+}
+
+Sprite sprSandTreeGreen
+{
+  texture=texMain
+  rect=63,672,63,80
+  hotspot=15,88
+}
+
+Sprite sprSandTreeYellow
+{
+  texture=texMain
+  rect=0,672,63,80
+  hotspot=15,88
+}
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; MapEdit
+Texture texMapEdit
+{
+  filename=data\pic\MapEdit.png
+}
+
+Sprite sprMapEdit
+{
+  texture=texMapEdit
+  rect=0,0,800,600
+}
+
+Texture texType1GroundBtn
+{
+  filename=data\pic\GroundBtn.png
+}
+
+Sprite sprType1GroundBtn
+{
+  texture=texType1GroundBtn
+  rect=0,0,267,27
+  hotspot=-5,-1
+}
+
+Texture texType1ItemBtn
+{
+  filename=data\pic\ItemBtn.png
+}
+
+Sprite sprType1ItemBtn
+{
+  texture=texType1ItemBtn
+  rect=0,0,96,203
+  hotspot=-7,0
+}
+
+Texture texType2GroundBtn
+{
+  filename=data\pic\Type2GroundBtn.png
+}
+
+Sprite sprType2GroundBtn
+{
+  texture=texType2GroundBtn
+  rect=0,0,67,27
+  hotspot=-5,-1
+}
+
+Texture texType2ItemBtn1
+{
+  filename=data\pic\Type2ItemBtn1.png
+}
+
+Sprite sprType2ItemBtn1
+{
+  texture=texType2ItemBtn1
+  rect=0,0,96,246
+  hotspot=-7,0
+}
+
+Texture texType2ItemBtn2
+{
+  filename=data\pic\Type2ItemBtn2.png
+}
+
+Sprite sprType2ItemBtn2
+{
+  texture=texType2ItemBtn2
+  rect=0,0,99,160
+  hotspot=-4,0
+}
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Buttons
+Texture texButtons
+{
+  filename=data\pic\buttons.png
+}
+
+Sprite sprStartOver
+{
+  texture=texButtons
+  rect=149,0,149,35
+}
+
+Sprite sprStartDisable
+{
+  texture=texButtons
+  rect=0,0,149,35
+}
+
+Sprite sprStartDown
+{
+  texture=texButtons
+  rect=298,0,149,35
+}
+
+Sprite sprEditOver
+{
+  texture=texButtons
+  rect=0,35,149,35
+}
+
+Sprite sprEditDown
+{
+  texture=texButtons
+  rect=149,35,149,35
+}
+
+Sprite sprExitOver
+{
+  texture=texButtons
+  rect=447,0,54,45
+  hotspot=15,23
+}
+
+Sprite sprExitDown
+{
+  texture=texButtons
+  rect=501,0,54,45
+  hotspot=15,23
+}
+
+Sprite sprReturnOver
+{
+  texture=texButtons
+  rect=298,35,134,36
+}
+
+Sprite sprReturnDown
+{
+  texture=texButtons
+  rect=0,70,134,36
+}
+
+Sprite sprNextBtnDisable
+{
+  texture=texButtons
+  rect=0,106,43,21
+}
+
+Sprite sprNextBtnDown
+{
+  texture=texButtons
+  rect=43,106,43,21
+}
+
+Sprite sprPrevBtnDisable
+{
+  texture=texButtons
+  rect=86,106,43,21
+}
+
+Sprite sprPrevBtnDown
+{
+  texture=texButtons
+  rect=129,106,43,21
+}
+
+Sprite sprTownTab
+{
+  texture=texButtons
+  rect=134,71,281,31
+}
+
+Sprite sprSandTab
+{
+  texture=texButtons
+  rect=0,127,281,31
+}
+
+Sprite sprIceTab
+{
+  texture=texButtons
+  rect=0,158,281,31
+}
+
+Sprite sprCheckDown
+{
+  texture=texButtons
+  rect=172,106,15,15
+}
+
+Sprite sprChecked
+{
+  texture=texButtons
+  rect=187,106,15,15
+}
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Font
+Font fntSelMap
+{
+  filename=data\fonts\font.fnt
+}
+
+Font fntSaveName
+{
+  filename=data\fonts\fntSaveName.fnt
+}
+
+Font fntDigit
+{
+  filename=data\fonts\fntDigit.fnt
+}
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Role1
+Texture texRole1
+{
+  filename=data\pic\Role1.png
+}
+
+Animation aniRole1Up
+{
+  texture=texRole1
+  rect=0,0,48,64
+  frames=6
+  fps=6.0
+  mode=FORWARD,LOOP
+  hotspot=4,66
+}
+
+Animation aniRole1Down
+{
+  texture=texRole1
+  rect=0,64,48,64
+  frames=6
+  fps=6.0
+  mode=FORWARD,LOOP
+  hotspot=4,66
+}
+
+Animation aniRole1Left
+{
+  texture=texRole1
+  rect=0,128,48,64
+  frames=6
+  fps=6.0
+  mode=FORWARD,LOOP
+  hotspot=4,66
+}
+
+Animation aniRole1Right
+{
+  texture=texRole1
+  rect=0,192,48,64
+  frames=6
+  fps=6.0
+  mode=FORWARD,LOOP
+  hotspot=4,66
+}
+
+Texture texRole1Ani
+{
+  filename=data\pic\role1ani.png
+}
+
+Animation aniRole1
+{
+  texture=texRole1Ani
+  rect=0,0,48,64
+  frames=2
+  fps=6.0
+  mode=FORWARD,LOOP
+  hotspot=4,68
+}
+
+Animation aniRole1Win
+{
+  texture=texRole1Ani
+  rect=96,0,48,64
+  frames=4
+  fps=6.0
+  mode=FORWARD,LOOP
+  hotspot=4,68
+}
+
+Animation aniRole1Idle
+{
+  texture=texRole1Ani
+  rect=288,0,48,64
+  frames=2
+  fps=6.0
+  mode=FORWARD,LOOP
+  hotspot=4,68
+}
+
+Texture texRole1Die
+{
+  filename=data\pic\role1die.png
+}
+
+Animation aniRole1Die
+{
+  texture=texRole1Die
+  rect=0,0,48,100
+  frames=11
+  fps=6.0
+  mode=FORWARD,NOLOOP
+  hotspot=4,106
+}
+
+Texture texRole1Start
+{
+  filename=data\pic\role1start.png
+}
+
+Animation aniRole1Start
+{
+  texture=texRole1Start
+  rect=0,0,48,64
+  frames=8
+  fps=18.0
+  mode=FORWARD,NOLOOP
+  hotspot=4,66
+}
+
+Animation aniRole1StartFlash
+{
+  texture=texRole1Start
+  rect=384,0,48,64
+  frames=2
+  fps=36.0
+  mode=FORWARD,LOOP
+  hotspot=4,66
+}
+
+Texture texRole1Ride
+{
+  filename=data\pic\Role1Ride.png
+}
+
+Animation aniRole1Ride
+{
+  texture=texRole1Ride
+  rect=0,0,48,56
+  frames=4
+  hotspot=4,84
+}
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Role2
+Texture texRole2
+{
+  filename=data\pic\role2.png
+}
+
+Animation aniRole2Up
+{
+  texture=texRole2
+  rect=0,0,56,67
+  frames=6
+  fps=6.0
+  mode=FORWARD,LOOP
+  hotspot=8,68
+}
+
+Animation aniRole2Down
+{
+  texture=texRole2
+  rect=0,67,56,67
+  frames=6
+  fps=6.0
+  mode=FORWARD,LOOP
+  hotspot=8,68
+}
+
+Animation aniRole2Left
+{
+  texture=texRole2
+  rect=0,134,56,67
+  frames=6
+  fps=6.0
+  mode=FORWARD,LOOP
+  hotspot=8,68
+}
+
+Animation aniRole2Right
+{
+  texture=texRole2
+  rect=0,201,56,67
+  frames=6
+  fps=6.0
+  mode=FORWARD,LOOP
+  hotspot=8,68
+}
+
+Texture texRole2Ani
+{
+  filename=data\pic\role2ani.png
+}
+
+Animation aniRole2
+{
+  texture=texRole2Ani
+  rect=0,0,56,70
+  frames=2
+  fps=6.0
+  mode=FORWARD,LOOP
+  hotspot=8,71
+}
+
+Animation aniRole2Win
+{
+  texture=texRole2Ani
+  rect=112,0,56,70
+  frames=4
+  fps=6.0
+  mode=FORWARD,LOOP
+  hotspot=8,71
+}
+
+Animation aniRole2Idle
+{
+  texture=texRole2Ani
+  rect=336,0,56,70
+  frames=2
+  fps=6.0
+  mode=FORWARD,LOOP
+  hotspot=8,71
+}
+
+Texture texRole2Die
+{
+  filename=data\pic\role2die.png
+}
+
+Animation aniRole2Die
+{
+  texture=texRole2Die
+  rect=0,0,56,98
+  frames=11
+  fps=6.0
+  mode=FORWARD,NOLOOP
+  hotspot=8,106
+}
+
+Texture texRole2Start
+{
+  filename=data\pic\role2start.png
+}
+
+Animation aniRole2Start
+{
+  texture=texRole2Start
+  rect=0,0,56,71
+  frames=8
+  fps=18.0
+  mode=FORWARD,NOLOOP
+  hotspot=8,72
+}
+
+Animation aniRole2StartFlash
+{
+  texture=texRole2Start
+  rect=448,0,56,71
+  frames=2
+  fps=36.0
+  mode=FORWARD,LOOP
+  hotspot=8,72
+}
+
+Texture texRole2Ride
+{
+  filename=data\pic\Role2Ride.png
+}
+
+Animation aniRole2Ride
+{
+  texture=texRole2Ride
+  rect=0,0,56,60
+  frames=4
+  hotspot=8,86
+}
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; FixedItem
+Animation aniPopo
+{
+  texture=texMain
+  rect=248,143,44,41
+  frames=3
+  fps=4.1
+  mode=FORWARD,LOOP
+  hotspot=2,40
+}
+
+Animation aniShadowPopo
+{
+  texture=texMain
+  rect=512,41,35,16
+  color=80FFFFFF
+  frames=3
+  fps=4.1
+  mode=FORWARD,LOOP
+  hotspot=3,9
+}
+
+Animation aniShadowGift
+{
+  texture=texMain
+  rect=480,57,18,9
+  color=80FFFFFF
+  frames=2
+  fps=6.0
+  mode=FORWARD,LOOP
+  hotspot=-11,21
+}
+
+Animation aniGift1
+{
+  texture=texMain
+  rect=398,98,42,45
+  frames=3
+  fps=6.0
+  mode=FORWARD,LOOP
+  hotspot=1,62
+}
+
+Animation aniGift2
+{
+  texture=texMain
+  rect=180,41,42,45
+  frames=3
+  fps=6.0
+  mode=FORWARD,LOOP
+  hotspot=1,62
+}
+
+Animation aniGift3
+{
+  texture=texMain
+  rect=272,98,42,45
+  frames=3
+  fps=6.0
+  mode=FORWARD,LOOP
+  hotspot=1,62
+}
+
+Animation aniGift4
+{
+  texture=texMain
+  rect=146,98,42,45
+  frames=3
+  fps=6.0
+  mode=FORWARD,LOOP
+  hotspot=1,62
+}
+
+Animation aniGift5
+{
+  texture=texMain
+  rect=20,98,42,45
+  frames=3
+  fps=6.0
+  mode=FORWARD,LOOP
+  hotspot=1,62
+}
+
+Animation aniGift6
+{
+  texture=texMain
+  rect=306,41,42,46
+  frames=3
+  fps=6.0
+  mode=FORWARD,LOOP
+  hotspot=1,62
+}
+
+Animation aniGift78
+{
+  texture=texMain
+  rect=20,143,36,41
+  frames=3
+  fps=6.0
+  mode=FORWARD,LOOP
+  hotspot=-2,62
+}
+
+Animation aniGift9
+{
+  texture=texMain
+  rect=380,143,36,38
+  frames=3
+  fps=6.0
+  mode=FORWARD,LOOP
+  hotspot=-2,56
+}
+
+Animation aniGift10
+{
+  texture=texMain
+  rect=128,143,40,41
+  frames=3
+  fps=6.0
+  mode=FORWARD,LOOP
+  hotspot=0,60
+}
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Vehicle
+Animation aniFastTurtle
+{
+  texture=texMain
+  rect=204,184,48,32
+  frames=2
+  fps=6.0
+  mode=FORWARD,LOOP
+  hotspot=4,37
+}
+
+Animation aniSlowTurtle
+{
+  texture=texMain
+  rect=300,184,48,32
+  frames=2
+  fps=6.0
+  mode=FORWARD,LOOP
+  hotspot=4,37
+}
+
+Animation aniFastUFO
+{
+  texture=texMain
+  rect=100,184,52,31
+  frames=2
+  fps=6.0
+  mode=FORWARD,LOOP
+  hotspot=6,47
+}
+
+Animation aniOwl
+{
+  texture=texMain
+  rect=20,184,40,40
+  frames=2
+  fps=6.0
+  mode=FORWARD,LOOP
+  hotspot=0,45
+}
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Sound
+Sound sndBg
+{
+  filename=data\snd\bg.ogg
+}
+
+Sound sndMainMenu
+{
+  filename=data\snd\M15.ogg
+}
+
+Sound sndStart
+{
+  filename=data\snd\start.ogg
+}
+
+Sound sndLay
+{
+  filename=data\snd\lay.ogg
+}
+
+Sound sndExplode
+{
+  filename=data\snd\explode.ogg
+}
+
+Sound sndAppear
+{
+  filename=data\snd\appear.ogg
+}
+
+Sound sndGet
+{
+  filename=data\snd\get.ogg
+}
+
+Sound sndDie
+{
+  filename=data\snd\die.ogg
+}
+
+Sound sndWin
+{
+  filename=data\snd\win.ogg
+}
+
+Sound sndDraw
+{
+  filename=data\snd\draw.ogg
+}
+
+Sound sndSave
+{
+  filename=data\snd\save.ogg
+}
+
+Sound sndMapEdit
+{
+  filename=data\snd\mine.ogg
+}
